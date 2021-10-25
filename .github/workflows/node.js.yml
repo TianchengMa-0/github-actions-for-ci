@@ -24,7 +24,7 @@ jobs:
     needs: build
 
   test:
-
+    need: build
     runs-on: ubuntu-latest
 
     strategy:
